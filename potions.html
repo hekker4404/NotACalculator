@@ -10,17 +10,17 @@
 <body>
     <button id="backButton">Back to Main Page</button>
     <h1>Minecraft Potions and Recipes</h1>
-    <ul>
-        <li><strong>Potion of Healing:</strong> Recipe details...</li>
-        <li><strong>Potion of Strength:</strong> Recipe details...</li>
-        <!-- Add more potions here -->
-    </ul>
+    <div class="potion">
+        <h2>Potion of Healing</h2>
+        <button class="toggleButton">Show More</button>
+        <div class="extraContent" style="display:none;">
+            <img src="potion-image-url.jpg" alt="Potion of Healing Recipe"> <!-- Replace with actual image URL -->
+            <p>Brewing Time: 20 seconds</p>
+            <p>Instructions: Add a Glistering Melon to an Awkward Potion.</p>
+        </div>
+    </div>
+    <!-- Repeat for other potions -->
 
-    <script>
-        document.getElementById('backButton').onclick = function () {
-            window.location.href = '/index.html';
-        };
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
