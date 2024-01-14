@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <button id="backButton">Back to Main Page</button>
     <h1>Minecraft Potions and Recipes</h1>
     <ul>
         <li><strong>Potion of Healing:</strong> Recipe details...</li>
         <li><strong>Potion of Strength:</strong> Recipe details...</li>
         <!-- Add more potions here -->
     </ul>
+
+    <script>
+        document.getElementById('backButton').onclick = function () {
+            window.location.href = '/index.html';
+        };
+    </script>
 </body>
 </html>
+
