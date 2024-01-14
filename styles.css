@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     color: #333;
-    background-image: url('background-image-url.jpg'); /* Add your background image URL here */
+    background-image: url('creeper.png'); /* Add your background image URL here */
     background-size: cover;
     background-attachment: fixed;
 }
