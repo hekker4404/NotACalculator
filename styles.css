@@ -1,14 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
     color: #333;
+    background-image: url('background-image-url.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
     text-align: center;
-    color: #444;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
 }
 
 ul {
@@ -17,7 +20,7 @@ ul {
 }
 
 li {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 5px;
@@ -26,11 +29,11 @@ li {
 }
 
 button {
-    background-color: #008CBA; /* Blue */
+    background-color: #4CAF50; /* Green */
     color: white;
-    padding: 15px 20px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px; /* Curved edges */
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -38,11 +41,11 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button:hover {
-    background-color: #005f73;
-    color: white;
+    background-color: #45a049;
 }
 
 #backButton {
