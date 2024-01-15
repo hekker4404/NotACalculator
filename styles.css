@@ -3,13 +3,17 @@ body {
     margin: 0;
     padding: 20px;
     color: #333;
+    /* Background image removed from here */
+}
+
+/* Styles specific to the potions page */
+.potions-page {
     background-image: url('creeper.png'); /* Add your background image URL here */
     background-size: cover;
     background-attachment: fixed;
 }
 
-
-
+/* Search bar styles */
 .search-container {
     text-align: center;
     margin: 20px 0;
@@ -23,19 +27,14 @@ body {
     border-radius: 5px;
 }
 
-
+/* Header styles */
 h1 {
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
 }
 
-.potions-page {
-    background-image: url('creeper.png'); /* Add your background image URL here */
-    background-size: cover;
-    background-attachment: fixed;
-}
-
+/* Styles for potion containers */
 .potion-container {
     max-width: 600px; /* Adjust as needed */
     margin: auto;
@@ -51,6 +50,7 @@ h1 {
     text-align: center;
 }
 
+/* Button styles */
 .toggleButton, button {
     background-color: #4CAF50; /* Green */
     color: white;
@@ -67,15 +67,18 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+/* Button hover effects */
 .toggleButton:hover, button:hover {
     background-color: #45a049;
 }
 
+/* Styles for the back button */
 #backButton {
     display: block;
     margin: 20px auto;
 }
 
+/* Styles for potion details */
 .extraContent img {
     width: 100%;
     max-width: 400px; /* Adjust as needed */
