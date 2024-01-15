@@ -28,4 +28,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Existing potion functionality code (if any)
+
+    // Back button functionality
+    var backButton = document.getElementById('backButton');
+    backButton.addEventListener('click', function() {
+        window.location.href = '/index.html'; // Adjust the path as needed
+    });
+});
 
